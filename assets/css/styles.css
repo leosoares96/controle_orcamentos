@@ -1,0 +1,67 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700&subset=latin-ext');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+a:link {
+  text-decoration: none;
+}
+
+html,
+body {
+  background: #f3f3f3;
+  color: #0861aa;
+  font-family: Open Sans;
+  height: 100%;
+  box-sizing: border-box;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+.hide {
+  display: none;
+}
+
+/*topo*/
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav h1 {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+/*container principal*/
+#container {
+  width: 100%;
+  height: 100%;
+}
+/*menu*/
+#menu {
+  display: absolute;
+  width: 250px;
+  top: 0px;
+  right: 0px;
+  padding-top: 60px;
+  height: 100%;
+  background: #6c757d;
+}
+#menu ul li a {
+  color: #fff;
+}
+#menu ul li:hover a {
+  background-color: #007bff;
+}
+/*conteudos*/
+#conteudo {
+  padding-top: 50px;
+}
