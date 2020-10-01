@@ -15,6 +15,9 @@
 <body>
 
   <div id='container'>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <h1 class='title'>Controle de Orçamentos</h1>
+    <nav class="navbar  navbar-fixed-top">
+      <a href='index.php'>
+        <h1 class='title'>Controle de Orçamentos</h1>
+      </a>
     </nav>
+    <div class='container-flex'>
