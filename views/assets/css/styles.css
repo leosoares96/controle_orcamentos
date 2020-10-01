@@ -80,3 +80,14 @@ nav h1 {
   padding-bottom: 10px;
   border-bottom: solid 1px #ddd;
 }
+
+#boxTable {
+  padding: 40px;
+}
+#boxTable table {
+  width: 100%;
+  margin: 20px 0px;
+}
+#boxTable table tr {
+  height: 30px;
+}

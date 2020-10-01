@@ -9,3 +9,7 @@ include_once("views/includes/leftnav.php");
 <?php
 include_once("views/includes/footer.php");
 ?>
+
+</body>
+
+</html>
