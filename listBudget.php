@@ -1,11 +1,11 @@
 <?php
-include_once("inc/topnav.php");
-include_once("inc/leftnav.php");
+include_once("views/includes/topnav.php");
+include_once("views/includes/leftnav.php");
 ?>
 <div id="conteudo">
   <h1>Meus Orçamentos</h1>
 </div>
 
 <?php
-include_once("inc/footer.php");
+include_once("views/includes/footer.php");
 ?>
