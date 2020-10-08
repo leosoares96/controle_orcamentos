@@ -5,24 +5,23 @@ include_once("views/includes/leftnav.php");
 <div id="conteudo">
   <h1>Cadastrar Cliente</h1>
   <div class="col-md-6 col-sm-12">
-    <form>
-      <div class="form-group">
-        <label for="nomeInput">Nome:</label>
-        <input type="text" class="form-control" id="nomeInput" placeholder="Digite o nome do cliente" required>
-      </div>
-      <div class="form-group">
-        <label for="emailInput">E-mail:</label>
-        <input type="email" class="form-control" id="emailInput" placeholder="Digite o E-mail do cliente" required>
-      </div>
-      <div class="form-group">
-        <label for="cpfInput">CPF:</label>
-        <input type="text" class="form-control" id="cpfInput" placeholder="Digite o CPF do cliente" required>
-      </div>
+    <div class="form-group">
+      <label for="nomeInput">Nome:</label>
+      <input type="text" class="form-control" id="nomeInput" placeholder="Digite o nome do cliente" required>
+    </div>
+    <div class="form-group">
+      <label for="emailInput">E-mail:</label>
+      <input type="email" class="form-control" id="emailInput" placeholder="Digite o E-mail do cliente" required>
+    </div>
+    <div class="form-group">
+      <label for="cpfInput">CPF:</label>
+      <input type="text" class="form-control" id="cpfInput" placeholder="Digite o CPF do cliente" required>
+    </div>
 
-      <div class="form-group">
-        <label for="cepInput">CEP:</label>
-        <input type="text" class="form-control" id="cepInput" placeholder="Digite o CEP do cliente" maxlength='9' required>
-      </div>
+    <div class="form-group">
+      <label for="cepInput">CEP:</label>
+      <input type="text" class="form-control" id="cepInput" placeholder="Digite o CEP do cliente" maxlength='9' required>
+    </div>
   </div>
 
   <div class="col-md-6 col-sm-12">
@@ -49,7 +48,6 @@ include_once("views/includes/leftnav.php");
       </div>
     </div>
     <button id='cadastrarButton' class="btn btn-primary right">Cadastrar</button>
-    </form>
   </div>
 
 
