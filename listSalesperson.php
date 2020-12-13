@@ -1,6 +1,9 @@
 <?php
-include_once("views/includes/topnav.php");
-include_once("views/includes/leftnav.php");
+  include_once("views/includes/topnav.php");
+  include_once("views/includes/leftnav.php");
+
+  include_once("./controllers/salesperson.controller.php");
+  $arr = returnData();
 ?>
 <div id="conteudo">
   <h1>Meus Vendedores</h1>
@@ -9,42 +12,24 @@ include_once("views/includes/leftnav.php");
       <table id='myTable'>
         <thead>
           <tr>
-            <th>teste</th>
-            <th>teste</th>
-            <th>teste</th>
-            <th>teste</th>
-            <th>teste</th>
-            <th>teste</th>
-            <th>teste</th>
+            <th>Name</th>
+            <th>Email</th>
           </tr>
         </thead>
         <tbody>
+        <?php
+          foreach ($arr as $value) {
+            echo '
+              <tr>
+                <td>'.$value['name'].'</td>
+                <td>'.$value['email'].'</td>
+              </tr>
+            ';
+          }
+        ?>
           <tr>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-          </tr>
-          <tr>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-          </tr>
-          <tr>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
-            <td>teste</td>
+            <td>name</td>
+            <td>email</td>
           </tr>
         </tbody>
       </table>

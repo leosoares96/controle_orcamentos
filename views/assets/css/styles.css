@@ -93,3 +93,9 @@ nav h1 {
 #boxTable table tr {
   height: 30px;
 }
+#boxTable table td,
+#boxTable table th {
+  border: solid 1px #ddd;
+  border-spacing: 0;
+  padding: 4px;
+}

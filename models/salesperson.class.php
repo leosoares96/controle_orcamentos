@@ -4,16 +4,16 @@
 class Salesperson
 {
 
-  private $nome;
+  private $name;
   private $email;
 
-  function setNome($nome)
+  function setName($name)
   {
-    $this->nome = $nome;
+    $this->name = $name;
   }
-  function getNome()
+  function getName()
   {
-    return $this->nome;
+    return $this->name;
   }
   function setEmail($email)
   {
@@ -24,3 +24,4 @@ class Salesperson
     return $this->email;
   }
 }
+?>
